@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function PriceCard(){
-    return 
+    return (
     <section className="pricing py-5">
       <div className="container">
         <div className="row">
@@ -80,5 +80,6 @@ export default function PriceCard(){
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+    );
 }
