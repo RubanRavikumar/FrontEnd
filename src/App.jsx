@@ -3,7 +3,7 @@ import PriceCard from './Components/PriceCard/PriceCard';
 
 function App() {
   return(
-    <div className='App'> 
+    <div className='App'>
       <PriceCard />
     </div>
   );
