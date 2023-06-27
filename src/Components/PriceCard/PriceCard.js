@@ -28,7 +28,7 @@ export default function PriceCard({ data = {}}){
                    ))}
                 </ul>
                 <div className="d-grid">
-                  <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                  <button onClick={()=> alert(data.pricetype)} className="btn btn-primary text-uppercase">Button</button>
                 </div>
               </div>
             </div>
